@@ -1,0 +1,17 @@
+{
+  "bootstrap": "vendor/autoload.php",
+  "path": "benchmarks",
+  "outputs": {
+    "default": {
+      "extends": "html",
+      "file": "report/benchmarks/index.html",
+      "title": "Benchmark"
+    }
+  },
+  "reports": {
+    "all": {
+      "generator": "composite",
+      "reports": ["env", "aggregate"]
+    }
+  }
+}

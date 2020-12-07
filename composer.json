@@ -1,0 +1,24 @@
+{
+    "name": "fwhat/php_code_performance",
+    "authors": [
+        {
+            "name": "fwhat",
+            "email": "qianmiansen@outlook.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "7.5.1",
+        "phpbench/phpbench": "^0.17.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FWhat\\PHPCodePerformance\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FWhat\\PHPCodePerformance\\Bench\\": "benchmarks"
+        }
+    }
+}
